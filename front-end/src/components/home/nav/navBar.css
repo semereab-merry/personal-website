@@ -1,0 +1,12 @@
+.nav-option {
+  cursor: pointer;
+}
+
+.nav-option:hover {
+  color: var(--green);
+}
+
+.nav-option-seperator {
+  padding-top: 30px;
+  padding-right: 50px;
+}

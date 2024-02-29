@@ -1,0 +1,25 @@
+.heading-container {
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+.screen-subheading {
+  letter-spacing: 3px;
+  color: var(--green);
+}
+
+.screen-heading {
+  color: var(--white);
+}
+
+.heading-seperator {
+  width: 10rem;
+  margin-bottom: 2%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.seperator-line {
+  width: 100%;
+  border-top: 3px dotted var(--white);
+  margin-bottom: 10%;
+}

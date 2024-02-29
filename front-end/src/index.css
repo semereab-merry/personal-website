@@ -1,0 +1,55 @@
+body {
+  margin: 0 !important;
+  overflow-y: overlay;
+  overflow-x: hidden;
+  font-family: "Kanit";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.butn {
+  border-radius: 50px;
+  padding: 12px 0;
+  width: 160px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.butn:active {
+  transform: translateY(2px);
+}
+
+.light {
+  color: var(--white);
+  border: 2px solid var(--blue);
+  background-color: var(--main);
+}
+
+.butn:hover {
+  transform: scale(1.05);
+  color: var(--white);
+  border: 2px solid var(--green);
+  background-color: var(--green);
+}
+
+.dark {
+  color: var(--main);
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+}
+
+a {
+  /* text-decoration: none; */
+  color: var(--white);
+}
+
+a:hover {
+  color: var(--green);
+  text-decoration: underline var(--green) 2px;
+}
+
+a:visited {
+  color: var(--white);
+}

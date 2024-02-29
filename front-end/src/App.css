@@ -1,0 +1,17 @@
+div {
+  background-color: var(--main);
+  color: var(--white);
+}
+
+:root {
+  --white: #fbf7f1;
+  --blue: #78c6fc;
+  --green: #3bb0a9;
+  --main: #031a2e;
+  --grey-blue: #1b2b39;
+  --grey-white: #c4c4c4;
+}
+
+.green {
+  color: #3bb0a9;
+}

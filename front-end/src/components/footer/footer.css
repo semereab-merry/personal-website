@@ -1,0 +1,18 @@
+.footer {
+  margin-top: 20px;
+  padding: 20px 20px 70px 20px;
+}
+
+.footer,
+.footer > div {
+  background-color: #1b2b39;
+  color: #c4c4c4;
+}
+
+.disabled {
+  margin-top: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
